@@ -2,6 +2,12 @@ body, html
 {
 	margin: 0px;
   padding: 0px;
+  background-color: #eeeeee;
+}
+
+p
+{
+  margin: 0;
 }
 
 img.mainImg
@@ -14,6 +20,7 @@ img.mainImg
 div.header
 {
   margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -29,7 +36,7 @@ li
 {
   display: inline;
   margin-right: 13px;
-  font-size: 19px;
+  font-size: 20px;
   font-family: "vinyl",sans-serif;
   letter-spacing: -.03em;
   text-transform: uppercase;
@@ -40,7 +47,7 @@ li
 li.currentPage, li:hover
 {
   border-bottom-width: 3;
-  border-bottom-color: blue;
+  border-bottom-color: #0099FF;
   border-bottom-style: solid;
 }
 
@@ -49,3 +56,26 @@ a
   text-decoration: none;
   color: black;
 }
+
+.content
+{
+  width: 65%;
+  margin: auto;
+}
+
+.footer
+{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 65%;
+  margin: auto;
+  font-size: 15px;
+  color: #888888;
+}
+
+
+
+
+
+
+
