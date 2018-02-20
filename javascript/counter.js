@@ -1,4 +1,3 @@
-
 // Set the date we're counting down to
 var countDownDate = new Date("Aug 18, 2018 16:00:00").getTime();
 
