@@ -26,6 +26,6 @@ var x = setInterval(function() {
     }
     else{
         clearInterval(x);
-        document.getElementById("counter").innerHTML = "Expired";
+        document.getElementById("counter").innerHTML = "We are now happily ever after.";
     }
 }, 1000/60);
